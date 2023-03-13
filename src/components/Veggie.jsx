@@ -39,7 +39,7 @@ import '@splidejs/splide/dist/css/splide.min.css';
                         <Card>
                             <p>{recipe.title}</p>
                             <img src={recipe.image} alt={recipe.title}/>
-                            <Gradient/>
+                          <Gradient/>
                         </Card>
                     </SplideSlide>
                 );
